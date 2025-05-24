@@ -6,6 +6,6 @@ orbs:
  workflows:
   mny_workflow:
    jobs:
-    - shellcheck/check:
+   - shellcheck/check:
      dir: ./
      pattern: '*.sh'
